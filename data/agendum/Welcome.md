@@ -1,0 +1,22 @@
+- What is Agendum?
+	- Best way to create text agenda
+	- Outliner
+		- Quickly get ideas out
+		- Adjust structure later
+	- Presenter
+		- Easily display your agenda
+		- Beautiful presentation with no fuss
+	- The Latin singular of “agenda”
+- Getting started
+	- Indenting
+	- Notes
+	- Scheduling
+	- Deleting points
+- Presentation mode
+- External displays
+	- Connect to a screen
+	- Control another device
+- Exporting
+- Drag and drop
+- Keyboard shortcuts
+- Explore!
