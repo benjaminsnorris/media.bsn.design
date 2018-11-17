@@ -1,22 +1,112 @@
 - What is Agendum?
-	- Best way to create text agenda
-	- Outliner
-		- Quickly get ideas out
+	- The best way to create text agenda
+	- An outliner
+		- Quickly get ideas out of your mind
 		- Adjust structure later
-	- Presenter
+	- A presenter
 		- Easily display your agenda
 		- Beautiful presentation with no fuss
 	- The Latin singular of “agenda”
 - Getting started
+	- Using this file
+		- Explore and read to get hints and help
+		- “List view” refers to the list of folders and agenda
+		- “Outline view” refers to the you see right now
+		- Make any changes you want to experiment
+		- The file will reset when you relaunch the app
+	- Creating a row
+		- Use the “Add” button in the bottom toolbar
+		- Press “return” while editing text
 	- Indenting
+		- Swipe left to outdent
+		- Swipe right to indent
+		- Type “tab” to indent while editing text
+		- Type “delete” at beginning of line to outdent
+		- Use the triangle button on a row to collapse or expand a section
+		- Use the double triangle button in the bottom toolbar to collapse or expand everything
 	- Notes
+		- Notes can be used like presenter notes
+		- By default, they will not be displayed when presenting
+		- They will also be hidden in outline mode
+		- You can tap on a row with a note icon to view the note [^ This is a row with a note that can be viewed when it is selected ]
+		- Tap the “Add note” button above the keyboard while typing to create a note
 	- Scheduling
-	- Deleting points
+		- Use the button in the bottom toolbar to set a date
+		- Agenda are sorted by scheduled date in list view
+	- Renaming
+		- Tap on the name in the navigation bar
+	- Deleting rows
+		- While typing, use the delete button above the keyboard
+		- Press and hold on a row
+			- A delete drop area will appear in the bottom toolbar
+			- You can tap on more rows to delete multiple at once
 - Presentation mode
+	- Tap the present button in the upper right corner
+	- While presenting
+		- Tap on the screen to advance
+		- Swipe to the left to advance
+		- Swipe to the right to reverse
+		- Pinch or swipe down to close
+		- Swipe from the left edge to show an outline view of the agendum
+	- Presentation settings
+		- Open the drawer at the bottom of outline view
+		- View settings from the “More” button [^ The “More” button is the button with three dots ]
 - External displays
 	- Connect to a screen
+		- AirPlay to an Apple TV [^ You can do this from Control Center ]
+		- Plug in an adapter to a projector or TV
 	- Control another device
+		- You can control devices logged in to the same iCloud account
+		- The “Control device” button will show in the upper right [^ The “Control device” button looks like a device broadcasting a signal. It is only shown when you have multiple devices logged in to the same iCloud account with Agendum installed. ]
+		- Launch the app on both devices and use the control device to select the other
+	- Control from outline view
+		- The presentation drawer will be open automatically
+		- Use the arrows to advance or reverse
+		- Tapping on any row will present that row
+		- Pause to make changes without presenting them [^ This allows you to make adjustments while presenting without anyone realizing you are changing things! ]
+	- Launch presention mode on control device for presenter view
 - Exporting
-- Drag and drop
+	- Use the share button in the bottom toolbar
+	- Exporting a file
+		- Generates a file that can be shared
+		- Text is saved in Markdown format
+		- Allows you to print a formatted version
+	- Exporting plain text
+		- Directly shares the Markdown text
+		- Allows you to print a plain version
 - Keyboard shortcuts
+	- The app can be completely controlled from the keyboard
+	- Press and hold “command” on any screen to see available shortcuts
+	- Navigating
+		- Use up and down arrows to navigate in outline or list views
+		- Use left and right arrows to navigate through folders in list view
+		- Press “return” to select an agendum and see the outline view
+	- Editing text
+		- Press “return” to start editing the selected row
+		- Press “shift” + “command” + “return” to add or edit a note for the selected row
+		- Press “command” + “return” to stop editing
+	- Indenting
+		- Press “command” + “[“ to outdent
+		- Press “command” + “]” to indent
+	- Presentation mode
+		- Press the right or down arrow to advance
+		- Press the left or up arrow to reverse
+		- Press “command” + “W” to close presentation mode
+		- Press “B” to turn the screen black
+		- Press “W” to turn the screen white
+- Drag and drop
+	- In outline view
+		- Drag a row to change the order
+		- Collapse a section and drag the row to move the whole section
+		- One or more rows can be dragged to the toolbar to delete theme
+	- In list view
+		- Drag one or more agenda to a folder to move them
+		- Hover over a folder or the back arrow while dragging to navigate through folders
+	- iPad-only features
+		- Drag one or more rows to another app to share Markdown text from the rows
+		- Drag text from another app into Agendum to import [^ This can include an entire outline you have created in another app ]
 - Explore!
+	- This app has been a lot of fun to make
+	- I use this for all of my team meetings at work
+	- My kids love when we use it at home for family meetings
+	- I hope it is fun and useful for you!
