@@ -15,6 +15,13 @@
       "url": "https://bsn.design/download-agendum"
     },
     {
+      "identifier": 1027638921,
+      "name": "Carrier",
+      "subtitle": "Schedule messages",
+      "icon": "http://media.bsn.design/data/carrier/icon.png",
+      "url": "https://bsn.design/download-carrier"
+    },
+    {
       "identifier": 1097012932,
       "name": "Light Table",
       "subtitle": "Trace and draw anywhere",
