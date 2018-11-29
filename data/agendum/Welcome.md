@@ -86,7 +86,7 @@
 		- Press “shift” + “command” + “return” to add or edit a note for the selected row
 		- Press “command” + “return” to stop editing
 	- Indenting
-		- Press “command” + “[“ to outdent
+		- Press “command” + “[" to outdent
 		- Press “command” + “]” to indent
 	- Presentation mode
 		- Press the right or down arrow to advance
@@ -98,7 +98,7 @@
 	- In outline view
 		- Drag a row to change the order
 		- Collapse a section and drag the row to move the whole section
-		- One or more rows can be dragged to the toolbar to delete theme
+		- One or more rows can be dragged to the toolbar to delete them
 	- In list view
 		- Drag one or more agenda to a folder to move them
 		- Hover over a folder or the back arrow while dragging to navigate through folders
