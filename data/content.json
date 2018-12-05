@@ -5,9 +5,9 @@
       "name": "Pointedly",
       "subtitle": "Keep score",
       "icon": "http://media.bsn.design/data/pointedly/icon.png",
-      "url": "https://bsn.design/download-pointedly",
-      "downloadURL": "https://bsn.design/download-pointedly",
-      "marketingURL": "https://bsn.design/pointedly",
+      "url": "http://bsn.design/download-pointedly",
+      "downloadURL": "itms-apps://itunes.apple.com/app/id933257819?mt=8",
+      "marketingURL": "http://bsn.design/pointedly",
       "openURL": "pointedly://open"
     },
     {
@@ -16,7 +16,7 @@
       "subtitle": "Outline & present text agenda",
       "icon": "http://media.bsn.design/data/agendum/icon.png",
       "url": "http://bsn.design/download-agendum",
-      "downloadURL": "http://bsn.design/download-agendum",
+      "downloadURL": "itms-apps://itunes.apple.com/app/id1437361485?mt=8",
       "marketingURL": "http://bsn.design/agendum",
       "openURL": "agendum://open"
     },
@@ -26,7 +26,7 @@
       "subtitle": "Schedule messages",
       "icon": "http://media.bsn.design/data/carrier/icon.png",
       "url": "http://bsn.design/download-carrier",
-      "downloadURL": "http://bsn.design/download-carrier",
+      "downloadURL": "itms-apps://itunes.apple.com/app/id1027638921?mt=8",
       "marketingURL": "http://bsn.design/carrier",
       "openURL": "carrier://perform/viewList"
     },
@@ -36,7 +36,7 @@
       "subtitle": "Trace and draw anywhere",
       "icon": "http://media.bsn.design/data/light-table/icon.png",
       "url": "http://bsn.design/download-light-table",
-      "downloadURL": "http://bsn.design/download-light-table",
+      "downloadURL": "itms-apps://itunes.apple.com/app/id1097012932?mt=8",
       "marketingURL": "http://bsn.design/light-table",
       "openURL": "lightTable://open"
     },
@@ -46,7 +46,7 @@
       "subtitle": "Memorize anything",
       "icon": "http://media.bsn.design/data/recite/icon.png",
       "url": "http://bsn.design/download-recite",
-      "downloadURL": "http://bsn.design/download-recite",
+      "downloadURL": "itms-apps://itunes.apple.com/app/id987558663?mt=8",
       "marketingURL": "http://bsn.design/recite",
       "openURL": "recite://boxes"
     }
