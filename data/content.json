@@ -15,9 +15,9 @@
       "name": "Agendum",
       "subtitle": "Outline & present text agenda",
       "icon": "http://media.bsn.design/data/agendum/icon.png",
-      "url": "https://bsn.design/download-agendum",
-      "downloadURL": "https://bsn.design/download-agendum",
-      "marketingURL": "https://bsn.design/agendum",
+      "url": "http://bsn.design/download-agendum",
+      "downloadURL": "http://bsn.design/download-agendum",
+      "marketingURL": "http://bsn.design/agendum",
       "openURL": "agendum://open"
     },
     {
@@ -25,9 +25,9 @@
       "name": "Carrier",
       "subtitle": "Schedule messages",
       "icon": "http://media.bsn.design/data/carrier/icon.png",
-      "url": "https://bsn.design/download-carrier",
-      "downloadURL": "https://bsn.design/download-carrier",
-      "marketingURL": "https://bsn.design/carrier",
+      "url": "http://bsn.design/download-carrier",
+      "downloadURL": "http://bsn.design/download-carrier",
+      "marketingURL": "http://bsn.design/carrier",
       "openURL": "carrier://perform/viewList"
     },
     {
@@ -35,9 +35,9 @@
       "name": "Light Table",
       "subtitle": "Trace and draw anywhere",
       "icon": "http://media.bsn.design/data/light-table/icon.png",
-      "url": "https://bsn.design/download-light-table",
-      "downloadURL": "https://bsn.design/download-light-table",
-      "marketingURL": "https://bsn.design/light-table",
+      "url": "http://bsn.design/download-light-table",
+      "downloadURL": "http://bsn.design/download-light-table",
+      "marketingURL": "http://bsn.design/light-table",
       "openURL": ""
     },
     {
@@ -45,9 +45,9 @@
       "name": "Recite",
       "subtitle": "Memorize anything",
       "icon": "http://media.bsn.design/data/recite/icon.png",
-      "url": "https://bsn.design/download-recite",
-      "downloadURL": "https://bsn.design/download-recite",
-      "marketingURL": "https://bsn.design/recite",
+      "url": "http://bsn.design/download-recite",
+      "downloadURL": "http://bsn.design/download-recite",
+      "marketingURL": "http://bsn.design/recite",
       "openURL": "recite://open"
     }
   ]
