@@ -8,7 +8,7 @@
       "url": "https://bsn.design/download-pointedly",
       "downloadURL": "https://bsn.design/download-pointedly",
       "marketingURL": "https://bsn.design/pointedly",
-      "openURL": ""
+      "openURL": "pointedly://open"
     },
     {
       "identifier": 1437361485,
@@ -38,7 +38,7 @@
       "url": "http://bsn.design/download-light-table",
       "downloadURL": "http://bsn.design/download-light-table",
       "marketingURL": "http://bsn.design/light-table",
-      "openURL": ""
+      "openURL": "lightTable://open"
     },
     {
       "identifier": 987558663,
