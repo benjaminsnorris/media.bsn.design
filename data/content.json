@@ -39,16 +39,6 @@
       "downloadURL": "itms-apps://itunes.apple.com/app/id1097012932?mt=8",
       "marketingURL": "http://bsn.design/light-table",
       "openURL": "lightTable://open"
-    },
-    {
-      "identifier": 987558663,
-      "name": "Recite",
-      "subtitle": "Memorize anything",
-      "icon": "http://media.bsn.design/data/recite/icon.png",
-      "url": "http://bsn.design/download-recite",
-      "downloadURL": "itms-apps://itunes.apple.com/app/id987558663?mt=8",
-      "marketingURL": "http://bsn.design/recite",
-      "openURL": "recite://boxes"
     }
   ]
 }
