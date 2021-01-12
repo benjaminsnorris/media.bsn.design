@@ -1,0 +1,832 @@
+{
+    "games" : [
+        {
+            "id": "holochess",
+            "name": "Holochess",
+            "scoreModeRaw": 1,
+            "sortModeRaw": 1,
+            "infoURLString": "https://starwars.fandom.com/wiki/Dejarik",
+            "notes": "Dejarik Holochess is the classic game played aboard the Millennium Falcon. 😊"
+        },
+        {
+            "id": "dice",
+            "name": "Star Wars Dice",
+            "infoURLString": "https://en.wikipedia.org/wiki/Farkle",
+            "notes": "This is also known as Farkle, or Greed.",
+            "targetScoreModeRaw": 2,
+            "scoreToEnd": 5000,
+            "endGameActionModeRaw": 2
+        },
+        {
+            "id": "hearts",
+            "name": "Hearts",
+            "infoURLString": "https://en.wikipedia.org/wiki/Hearts_(card_game)",
+            "notes": "Hearts has many different variants. This one has been chosen to illustrate ending the game after a set number of rounds.",
+            "doesHighScoreWin": false,
+            "endGameModeRaw": 1,
+            "roundsCountToEnd": 10,
+            "roundsDefaultDisplayModeRaw": 1
+        }
+    ],
+    "pointcards": [
+        {
+            "id": "holochess-one",
+            "isComplete": true,
+            "gameId": "holochess",
+            "notes": "This is an example of a game that is scored incrementally. You can change this setting in the Game Template.\n\nScoring incrementally can be useful for tracking when there is no real score during the game to track.",
+            "playedAt": "days:14"
+        },
+        {
+            "id": "dice-two",
+            "isComplete": true,
+            "gameId": "dice",
+            "notes": "This is an example of a full game scored in rounds with the history showing. One important thing you can do is to edit the score of previous rounds, or even delete scores.\n\nGive it a try! Tap on a score to edit the amount. If you are editing a score, a delete button will show with the keyboard. You can also long press on a score to delete it.",
+            "playedAt": "days:10"
+        },
+        {
+            "id": "hearts-two",
+            "isComplete": true,
+            "gameId": "hearts",
+            "notes": "You will notice that when you viewed this pointcard, the results were immediately shown. You can view the results at any time, and if the game is set to end automatically, they will be displayed when the game ends.",
+            "playedAt": "days:8"
+        },
+        {
+            "id": "dice-one",
+            "gameId": "dice",
+            "notes": "This is an example of an incomplete game that is scored in rounds. You can change this setting in the Game Template.\n\nThis game is set to end automatically when someone gets over 5,000 points, and all other players will get one additional turn before the end. Try entering some scores to get above 5,000 to see how it works.",
+            "playedAt": "days:6"
+        },
+        {
+            "id": "hearts-one",
+            "gameId": "hearts",
+            "notes": "This is an example of a incomplete game that is scored in rounds. You can change this setting in the Game Template.\n\nScoring in rounds gives you the ability to view the history of the scores, where you can make edits if needed. You can view the total scores from the menu, or quickly switch to total scores using the button in the upper right.",
+            "playedAt": "days:3"
+        }
+    ],
+    "people": [
+        {
+            "id": "chewie",
+            "firstName": "Chewbacca",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/chewie-min.jpg"
+        },
+        {
+            "id": "r2-d2",
+            "firstName": "R2-D2",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/r2-d2-min.png"
+        },
+        {
+            "id": "han",
+            "firstName": "Han",
+            "lastName": "Solo",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/han-min.jpg"
+        },
+        {
+            "id": "boba",
+            "firstName": "Boba",
+            "lastName": "Fett",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/boba-min.jpg"
+        },
+        {
+            "id": "rey",
+            "firstName": "Rey",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/rey-min.jpg"
+        },
+        {
+            "id": "ben",
+            "firstName": "Ben",
+            "lastName": "Solo",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/ben-min.jpg"
+        },
+        {
+            "id": "bb-8",
+            "firstName": "BB-8",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/bb-8-min.png"
+        },
+        {
+            "id": "finn",
+            "firstName": "Finn",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/finn-min.jpg"
+        },
+        {
+            "id": "ahsoka",
+            "firstName": "Ahsoka",
+            "lastName": "Tano",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/ahsoka-min.png"
+        },
+        {
+            "id": "grogu",
+            "firstName": "Grogu",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/grogu-min.png"
+        },
+        {
+            "id": "mando",
+            "firstName": "Mandalorian",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/mando-min.jpg"
+        },
+        {
+            "id": "cara",
+            "firstName": "Cara",
+            "lastName": "Dune",
+            "imageURL": "https://media.bsn.design/images/pointedly/people/cara-min.jpg"
+        }
+    ],
+    "players": [
+        {
+            "id": "chewie-holochess",
+            "personId": "chewie",
+            "pointcardId": "holochess-one",
+            "incrementalScore": 1,
+            "order": 0
+        },
+        {
+            "id": "r2-d2-holochess",
+            "personId": "r2-d2",
+            "pointcardId": "holochess-one",
+            "incrementalScore": 0,
+            "order": 1
+        },
+        {
+            "id": "ahsoka-dice-two",
+            "personId": "ahsoka",
+            "pointcardId": "dice-two",
+            "order": 0
+        },
+        {
+            "id": "han-dice-two",
+            "personId": "han",
+            "pointcardId": "dice-two",
+            "order": 1
+        },
+        {
+            "id": "bb-8-dice-two",
+            "personId": "bb-8",
+            "pointcardId": "dice-two",
+            "order": 2
+        },
+        {
+            "id": "grogu-dice-two",
+            "personId": "grogu",
+            "pointcardId": "dice-two",
+            "order": 3
+        },
+        {
+            "id": "rey-hearts-two",
+            "personId": "rey",
+            "pointcardId": "hearts-two",
+            "order": 0
+        },
+        {
+            "id": "ben-hearts-two",
+            "personId": "ben",
+            "pointcardId": "hearts-two",
+            "order": 1
+        },
+        {
+            "id": "bb-8-hearts-two",
+            "personId": "bb-8",
+            "pointcardId": "hearts-two",
+            "order": 2
+        },
+        {
+            "id": "finn-hearts-two",
+            "personId": "finn",
+            "pointcardId": "hearts-two",
+            "order": 3
+        },
+        {
+            "id": "chewie-dice-one",
+            "personId": "chewie",
+            "pointcardId": "dice-one",
+            "order": 0
+        },
+        {
+            "id": "han-dice-one",
+            "personId": "han",
+            "pointcardId": "dice-one",
+            "order": 1
+        },
+        {
+            "id": "r2-d2-dice-one",
+            "personId": "r2-d2",
+            "pointcardId": "dice-one",
+            "order": 2
+        },
+        {
+            "id": "boba-dice-one",
+            "personId": "boba",
+            "pointcardId": "dice-one",
+            "order": 3
+        },
+        {
+            "id": "cara-hearts-one",
+            "personId": "cara",
+            "pointcardId": "hearts-one",
+            "order": 0
+        },
+        {
+            "id": "ahsoka-hearts-one",
+            "personId": "ahsoka",
+            "pointcardId": "hearts-one",
+            "order": 1
+        },
+        {
+            "id": "grogu-hearts-one",
+            "personId": "grogu",
+            "pointcardId": "hearts-one",
+            "order": 2
+        },
+        {
+            "id": "mando-hearts-one",
+            "personId": "mando",
+            "pointcardId": "hearts-one",
+            "order": 3
+        }
+    ],
+    "scores": [
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 1,
+            "value": 300
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 2,
+            "value": 400
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 3,
+            "value": 500
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 4,
+            "value": 0
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 5,
+            "value": 800
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 6,
+            "value": 350
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 7,
+            "value": 700
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 8,
+            "value": 600
+        },
+        {
+            "playerId": "ahsoka-dice-two",
+            "round": 9,
+            "value": 0
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 1,
+            "value": 750
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 2,
+            "value": 0
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 3,
+            "value": 1200
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 4,
+            "value": 800
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 5,
+            "value": 1550
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 6,
+            "value": 600
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 7,
+            "value": 0
+        },
+        {
+            "playerId": "han-dice-two",
+            "round": 8,
+            "value": 750
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 1,
+            "value": 200
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 2,
+            "value": 250
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 3,
+            "value": 200
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 4,
+            "value": 300
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 5,
+            "value": 200
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 6,
+            "value": 250
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 7,
+            "value": 500
+        },
+        {
+            "playerId": "bb-8-dice-two",
+            "round": 8,
+            "value": 0
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 1,
+            "value": 600
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 2,
+            "value": 200
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 3,
+            "value": 700
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 4,
+            "value": 500
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 5,
+            "value": 300
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 6,
+            "value": 0
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 7,
+            "value": 950
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 8,
+            "value": 0
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 1,
+            "value": 7
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 2,
+            "value": 2
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 3,
+            "value": 2
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 4,
+            "value": 17
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 5,
+            "value": 13
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 6,
+            "value": 0
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 7,
+            "value": 4
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 8,
+            "value": 3
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 9,
+            "value": 5
+        },
+        {
+            "playerId": "rey-hearts-two",
+            "round": 10,
+            "value": 2
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 1,
+            "value": 1
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 2,
+            "value": 8
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 3,
+            "value": 15
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 4,
+            "value": 3
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 5,
+            "value": 2
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 6,
+            "value": 0
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 7,
+            "value": 3
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 8,
+            "value": 14
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 9,
+            "value": 1
+        },
+        {
+            "playerId": "ben-hearts-two",
+            "round": 10,
+            "value": 15
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 1,
+            "value": 5
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 2,
+            "value": 13
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 3,
+            "value": 3
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 4,
+            "value": 4
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 5,
+            "value": 6
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 6,
+            "value": -26
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 7,
+            "value": 4
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 8,
+            "value": 3
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 9,
+            "value": 2
+        },
+        {
+            "playerId": "bb-8-hearts-two",
+            "round": 10,
+            "value": 3
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 1,
+            "value": 13
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 2,
+            "value": 3
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 3,
+            "value": 6
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 4,
+            "value": 2
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 5,
+            "value": 5
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 6,
+            "value": 0
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 7,
+            "value": 15
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 8,
+            "value": 6
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 9,
+            "value": 18
+        },
+        {
+            "playerId": "finn-hearts-two",
+            "round": 10,
+            "value": 6
+        },
+        {
+            "playerId": "chewie-dice-one",
+            "round": 1,
+            "value": 400
+        },
+        {
+            "playerId": "chewie-dice-one",
+            "round": 2,
+            "value": 1200
+        },
+        {
+            "playerId": "chewie-dice-one",
+            "round": 3,
+            "value": 600
+        },
+        {
+            "playerId": "chewie-dice-one",
+            "round": 4,
+            "value": 800
+        },
+        {
+            "playerId": "han-dice-one",
+            "round": 1,
+            "value": 800
+        },
+        {
+            "playerId": "han-dice-one",
+            "round": 2,
+            "value": 900
+        },
+        {
+            "playerId": "han-dice-one",
+            "round": 3,
+            "value": 0
+        },
+        {
+            "playerId": "han-dice-one",
+            "round": 4,
+            "value": 1900
+        },
+        {
+            "playerId": "r2-d2-dice-one",
+            "round": 1,
+            "value": 200
+        },
+        {
+            "playerId": "r2-d2-dice-one",
+            "round": 2,
+            "value": 200
+        },
+        {
+            "playerId": "r2-d2-dice-one",
+            "round": 3,
+            "value": 200
+        },
+        {
+            "playerId": "r2-d2-dice-one",
+            "round": 4,
+            "value": 300
+        },
+        {
+            "playerId": "boba-dice-one",
+            "round": 1,
+            "value": 300
+        },
+        {
+            "playerId": "boba-dice-one",
+            "round": 2,
+            "value": 200
+        },
+        {
+            "playerId": "boba-dice-one",
+            "round": 3,
+            "value": 350
+        },
+        {
+            "playerId": "boba-dice-one",
+            "round": 4,
+            "value": 500
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 1,
+            "value": 2
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 2,
+            "value": 0
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 3,
+            "value": 5
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 4,
+            "value": 2
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 5,
+            "value": 13
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 6,
+            "value": 3
+        },
+        {
+            "playerId": "cara-hearts-one",
+            "round": 7,
+            "value": 17
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 1,
+            "value": 8
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 2,
+            "value": 0
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 3,
+            "value": 1
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 4,
+            "value": 15
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 5,
+            "value": 2
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 6,
+            "value": 14
+        },
+        {
+            "playerId": "ahsoka-hearts-one",
+            "round": 7,
+            "value": 3
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 1,
+            "value": 13
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 2,
+            "value": -26
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 3,
+            "value": 2
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 4,
+            "value": 3
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 5,
+            "value": 7
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 6,
+            "value": 3
+        },
+        {
+            "playerId": "grogu-hearts-one",
+            "round": 7,
+            "value": 4
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 1,
+            "value": 3
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 2,
+            "value": 0
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 3,
+            "value": 18
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 4,
+            "value": 6
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 5,
+            "value": 4
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 6,
+            "value": 6
+        },
+        {
+            "playerId": "mando-hearts-one",
+            "round": 7,
+            "value": 2
+        }
+    ]
+}
