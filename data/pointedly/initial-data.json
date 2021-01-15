@@ -696,7 +696,7 @@
         {
             "playerId": "cara-hearts-one",
             "round": 2,
-            "value": -26
+            "value": 0
         },
         {
             "playerId": "cara-hearts-one",
@@ -731,7 +731,7 @@
         {
             "playerId": "ahsoka-hearts-one",
             "round": 2,
-            "value": 0
+            "value": -26
         },
         {
             "playerId": "ahsoka-hearts-one",
