@@ -120,7 +120,7 @@
         },
         {
             "id": "mando",
-            "firstName": "Mandalorian",
+            "firstName": "Mando",
             "imageURLString": "https://media.bsn.design/images/pointedly/people/mando-min.jpg"
         },
         {
@@ -149,7 +149,7 @@
             "id": "ahsoka-dice-two",
             "personId": "ahsoka",
             "pointcardId": "dice-two",
-            "order": 0
+            "order": 3
         },
         {
             "id": "han-dice-two",
@@ -167,7 +167,7 @@
             "id": "grogu-dice-two",
             "personId": "grogu",
             "pointcardId": "dice-two",
-            "order": 3
+            "order": 0
         },
         {
             "id": "rey-hearts-two",
@@ -284,11 +284,6 @@
             "value": 600
         },
         {
-            "playerId": "ahsoka-dice-two",
-            "round": 9,
-            "value": 0
-        },
-        {
             "playerId": "han-dice-two",
             "round": 1,
             "value": 750
@@ -391,7 +386,7 @@
         {
             "playerId": "grogu-dice-two",
             "round": 5,
-            "value": 300
+            "value": 1200
         },
         {
             "playerId": "grogu-dice-two",
@@ -406,7 +401,12 @@
         {
             "playerId": "grogu-dice-two",
             "round": 8,
-            "value": 0
+            "value": 400
+        },
+        {
+            "playerId": "grogu-dice-two",
+            "round": 9,
+            "value": 1250
         },
         {
             "playerId": "rey-hearts-two",
@@ -696,7 +696,7 @@
         {
             "playerId": "cara-hearts-one",
             "round": 2,
-            "value": 0
+            "value": -26
         },
         {
             "playerId": "cara-hearts-one",
@@ -766,7 +766,7 @@
         {
             "playerId": "grogu-hearts-one",
             "round": 2,
-            "value": -26
+            "value": 0
         },
         {
             "playerId": "grogu-hearts-one",
