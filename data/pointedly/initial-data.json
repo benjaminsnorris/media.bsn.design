@@ -26,6 +26,47 @@
             "endGameModeRaw": 1,
             "roundsCountToEnd": 10,
             "roundsDefaultDisplayModeRaw": 1
+        },
+        {
+            "id": "golf",
+            "name": "Golf",
+            "infoURLString": "https://en.wikipedia.org/wiki/Golf_(card_game)",
+            "notes": "The object is for players to reduce the value of the cards in front of them by swapping them for lesser value cards and trying to get the lowest score.",
+            "doesHighScoreWin": false,
+            "endGameModeRaw": 1,
+            "roundsCountToEnd": 9
+        },
+        {
+            "id": "pigs",
+            "name": "Pass the Pigs",
+            "infoURLString": "https://en.wikipedia.org/wiki/Pass_the_Pigs",
+            "notes": "Each turn involves one player throwing two model pigs, each of which has a dot on one side. The player gains or loses points based on the way the pigs land. Each turn lasts until the player throwing either rolls the pigs in a way that wipes out their current turn score, wipes out their total game score, or decides to stop their turn, add their turn score to their total score and pass the pigs to the next player.",
+            "sortModeRaw": 1,
+            "endGameModeRaw": 2,
+            "endGameActionModeRaw": 1,
+            "scoreToEnd": 100
+        },
+        {
+            "id": "qwirkle",
+            "name": "Qwirkle",
+            "infoURLString": "https://en.wikipedia.org/wiki/Qwirkle",
+            "notes": "At the end of the game, once there are no more tiles to be drawn to replenish one’s hand, the first person to play all of their tiles gains an extra six point bonus, at which point the game ends, and the player who has the highest score wins."
+        },
+        {
+            "id": "nerts",
+            "name": "Nerts",
+            "infoURLString": "https://en.wikipedia.org/wiki/Nerts",
+            "notes": "In a hand, players or teams earn points determined by a formula using the number of cards played into the Lake subtracted by twice the number of cards remaining in the Nerts pile. Awarding 10-point bonuses to players or teams that call Nerts is a fairly common practice. ",
+            "sortModeRaw": 1,
+            "roundsDefaultDisplayModeRaw": 1,
+            "endGameModeRaw": 2,
+            "scoreToEnd": 100
+        },
+        {
+            "id": "rummy",
+            "name": "Rummy",
+            "infoURLString": "https://en.wikipedia.org/wiki/Rummy",
+            "notes": "The cards rank from 2 (low) to A (high). The player that goes out in a hand first gets an extra 10 points.\n\n## Single deck\n- 2 players: 10 cards each\n- 3 or 4 players: 7 cards each\n- 5 or 6 players: 6 or 7 cards each\n\n## Double-deck variations\n13 cards to each player"
         }
     ],
     "pointcards": [
