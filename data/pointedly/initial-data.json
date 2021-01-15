@@ -67,67 +67,67 @@
         {
             "id": "chewie",
             "firstName": "Chewbacca",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/chewie-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/chewie-min.jpg"
         },
         {
             "id": "r2-d2",
             "firstName": "R2-D2",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/r2-d2-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/r2-d2-min.png"
         },
         {
             "id": "han",
             "firstName": "Han",
             "lastName": "Solo",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/han-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/han-min.jpg"
         },
         {
             "id": "boba",
             "firstName": "Boba",
             "lastName": "Fett",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/boba-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/boba-min.jpg"
         },
         {
             "id": "rey",
             "firstName": "Rey",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/rey-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/rey-min.jpg"
         },
         {
             "id": "ben",
             "firstName": "Ben",
             "lastName": "Solo",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/ben-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/ben-min.jpg"
         },
         {
             "id": "bb-8",
             "firstName": "BB-8",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/bb-8-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/bb-8-min.png"
         },
         {
             "id": "finn",
             "firstName": "Finn",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/finn-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/finn-min.jpg"
         },
         {
             "id": "ahsoka",
             "firstName": "Ahsoka",
             "lastName": "Tano",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/ahsoka-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/ahsoka-min.png"
         },
         {
             "id": "grogu",
             "firstName": "Grogu",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/grogu-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/grogu-min.png"
         },
         {
             "id": "mando",
             "firstName": "Mandalorian",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/mando-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/mando-min.jpg"
         },
         {
             "id": "cara",
             "firstName": "Cara",
             "lastName": "Dune",
-            "imageURL": "https://media.bsn.design/images/pointedly/people/cara-min.jpg"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/cara-min.jpg"
         }
     ],
     "players": [
