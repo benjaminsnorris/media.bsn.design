@@ -113,7 +113,7 @@
         {
             "id": "r2-d2",
             "firstName": "R2-D2",
-            "imageURLString": "https://media.bsn.design/images/pointedly/people/r2-d2-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/r2-d2-min.jpg"
         },
         {
             "id": "han",
@@ -141,7 +141,7 @@
         {
             "id": "bb-8",
             "firstName": "BB-8",
-            "imageURLString": "https://media.bsn.design/images/pointedly/people/bb-8-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/bb-8-min.jpg"
         },
         {
             "id": "finn",
@@ -152,13 +152,13 @@
             "id": "ahsoka",
             "firstName": "Ahsoka",
             "lastName": "Tano",
-            "imageURLString": "https://media.bsn.design/images/pointedly/people/ahsoka-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/ahsoka-min.jpg"
         },
         {
             "id": "grogu",
             "firstName": "Grogu",
             "lastName": "“The Child”",
-            "imageURLString": "https://media.bsn.design/images/pointedly/people/grogu-min.png"
+            "imageURLString": "https://media.bsn.design/images/pointedly/people/grogu-min.jpg"
         },
         {
             "id": "mando",
