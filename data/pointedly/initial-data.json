@@ -67,6 +67,15 @@
             "name": "Rummy",
             "infoURLString": "https://en.wikipedia.org/wiki/Rummy",
             "notes": "The cards rank from 2 (low) to A (high). The player that goes out in a hand first gets an extra 10 points.\n\n## Single deck\n- 2 players: 10 cards each\n- 3 or 4 players: 7 cards each\n- 5 or 6 players: 6 or 7 cards each\n\n## Double-deck variations\n13 cards to each player"
+        },
+        {
+            "id": "phase-10",
+            "name": "Phase 10",
+            "infoURLString": "https://en.wikipedia.org/wiki/Phase_10",
+            "notes": "1. 2 sets of 3\n2. 1 set of 3 + 1 run of 4\n3. 1 set of 4 + 1 run of 4\n4. 1 run of 7\n5. 1 run of 8\n6. 1 run of 9\n7. 2 sets of 4\n8. 7 cards of 1 color\n9. 1 set of 5 + 1 set of 2\n10. 1 set of 5 + 1 set of 3\n\n(Sets and runs can be of any color)\n\nDeal 10 cards to each person\n\nScoring each round:\n- 5 points for each card 1-9\n- 10 points for each card 10-12\n- 15 points for each Skip card\n- 25 points for each Wild card",
+            "doesHighScoreWin": false,
+            "sortModeRaw": 1,
+            "roundsDefaultDisplayModeRaw": 1,
         }
     ],
     "pointcards": [
