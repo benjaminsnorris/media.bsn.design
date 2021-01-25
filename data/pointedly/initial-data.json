@@ -42,7 +42,6 @@
             "name": "Pass the Pigs",
             "infoURLString": "https://en.wikipedia.org/wiki/Pass_the_Pigs",
             "notes": "Each turn involves one player throwing two model pigs, each of which has a dot on one side. The player gains or loses points based on the way the pigs land. Each turn lasts until the player throwing either rolls the pigs in a way that wipes out their current turn score, wipes out their total game score, or decides to stop their turn, add their turn score to their total score and pass the pigs to the next player.",
-            "sortModeRaw": 1,
             "endGameModeRaw": 2,
             "endGameActionModeRaw": 1,
             "scoreToEnd": 100
