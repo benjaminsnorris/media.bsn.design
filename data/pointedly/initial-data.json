@@ -13,6 +13,7 @@
             "name": "Star Wars Dice",
             "infoURLString": "https://en.wikipedia.org/wiki/Farkle",
             "notes": "This is also known as Farkle, or Greed.",
+            "endGameModeRaw": 2,
             "targetScoreModeRaw": 2,
             "scoreToEnd": 5000,
             "endGameActionModeRaw": 2
