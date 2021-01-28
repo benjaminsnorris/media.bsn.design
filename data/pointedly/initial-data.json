@@ -12,7 +12,7 @@
             "id": "dice",
             "name": "Star Wars Dice",
             "infoURLString": "https://en.wikipedia.org/wiki/Farkle",
-            "notes": "This is also known as Farkle, or Greed.",
+            "notes": "This is also known as Farkle, or Greed.\n\nStar Wars Dice values:\n1: Yoda\n2: R2-D2\n3: C-3PO\n4: Stormtrooper\n5: Darth Vader\n6: Boba Fett",
             "endGameModeRaw": 2,
             "targetScoreModeRaw": 2,
             "scoreToEnd": 5000,
