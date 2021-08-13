@@ -1,9 +1,6 @@
 {
   "messageLimit": 3,
   "productIdentifiers": [
-    "design.bsn.Carrier.SmallUpgrade",
-    "design.bsn.Carrier.MediumUpgrade",
-    "design.bsn.Carrier.LargeUpgrade",
     "design.bsn.Carrier.ExtraLargeUpgrade"
   ]
 }
